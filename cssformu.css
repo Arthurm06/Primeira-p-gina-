@@ -1,0 +1,22 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+label{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+input{
+    width: 30%;
+}
+
+button{
+    margin-top: 10px;
+    width: 30%;
+}
+
+textarea{
+    margin-top: 10px;
+    width: 405px;
+}

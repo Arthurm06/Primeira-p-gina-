@@ -1,0 +1,150 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+#titulo{
+    background-color: lightskyblue;
+    display: inline-block;
+    width: 500px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#fundoazul{
+    background-color: blue;
+    display: inline-block;
+    width: 250px;
+    color: blue;
+    font-size: 14px;
+}
+
+#label{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#nome{
+    margin-left: 100px;
+    width: 590px;
+    margin-bottom: 4px;
+}
+
+#nomecompleto{
+    margin-left: 27px;
+    width: 590px;
+    margin-bottom: 4px;
+}
+
+#cpf{
+    margin-left: 114px;
+    width: 590px;
+    margin-bottom: 4px;
+}
+
+#email{
+    margin-left: 99px;
+    width: 590px;
+    margin-bottom: 4px;
+}
+
+#website{
+    margin-left: 86px;
+    width: 590px;
+    margin-bottom: 4px;
+}
+
+#endereco{
+    margin-left: 77px;
+    width: 590px;
+    margin-bottom: 4px;
+}
+
+#bairro{
+    margin-left: 100px;
+    width: 295px;
+    margin-bottom: 4px;
+}
+
+#cidade{
+    margin-left: 2px;
+    width: 225px;
+    margin-bottom: 4px;
+}
+
+#cep{
+    margin-left: 114px;
+    width: 295px;
+    margin-bottom: 4px;
+}
+
+#uf{
+    margin-left: 28px;
+    width: 233px;
+    margin-bottom: 4px;
+}
+
+#telefone{
+    margin-left: 81px;
+    width: 295px;
+    margin-bottom: 4px;
+}
+
+#fax{
+    margin-left: 23px;
+    width: 225px;
+    margin-bottom: 4px;
+}
+
+#nascimento{
+    margin-left: 19px;
+    width: 295px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+}
+
+#sexo{
+    margin-left: 90px;
+    margin-bottom: 4px;
+}
+
+#celular{
+    margin-left: 93px;
+    width: 295px;
+    margin-bottom: 4px;
+}
+
+#estadocivil{
+    margin-bottom: 4px;
+    width: 198px;
+}
+
+#login{
+    margin-left: 103px;
+    width: 295px;
+    margin-bottom: 4px;
+}
+
+#senha{
+    margin-left: 9px;
+    width: 220px;
+    margin-bottom: 4px;
+}
+
+#assunto{
+    margin-right: 24px;
+    margin-bottom: 4px;
+}
+
+#assunto2{
+    margin-right: 21.5px;
+    margin-bottom: 4px;
+}
+
+#assunto3{
+    margin-right: 22px;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-right: 5px;
+}

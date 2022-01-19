@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro 1</title>
+</head>
+
+<body>
+    <h4>SISTEMA DE GESTÃO ACADÊMICA</h4>
+    <h3>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h3>
+    <form>
+        <label>Login :</label>
+        <input type="text" id="login"><br>
+        <label>Senha :</label>
+        <input type="password" id="senha"><br>
+        <label>Status :</label>
+        <select id="status">
+            <option>Inativo</option>
+            <option>Ativo</option>
+        </select><br>
+        <label>Tipo :</label>
+        <section id="tipo">
+            <input type="radio">Técnico <input type="radio">Professor
+            <input type="radio">Aluno <br>
+        </section>
+        <label>Data criação :</label>
+        <input type="date" id="data-criacao"><br>
+        <label>Perfil :</label>
+        <section id="perfil">
+            <input type="radio">Convidado <input type="radio">Administrador<br>
+        </section>
+        <label>Obrservações : </label>
+        <textarea rows="6" cols="40" id="observacoes"></textarea><br>
+        <label>Módulos :</label>
+        <input type="checkbox" id="modulo">Compras
+        <input type="checkbox" id="modulo">Biblioteca
+        <input type="checkbox" id="modulo"> Acadêmico <br>
+        <input type="checkbox" id="modulo2">Documentação
+        <input type="checkbox" id="modulo2">Recurso Humanos <br>
+        <button>Cadastrar </button>
+        <button>Excluir </button>
+    </form>
+</body>
+
+</html>
